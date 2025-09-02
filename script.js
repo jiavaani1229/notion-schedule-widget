@@ -155,19 +155,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // It's a school day, proceed with schedule logic
-    let daysPassed = 0;
+    let schoolDaysPassed = 0;
     let currentDate = new Date(anchorDate);
     
-    while (currentDate < today) {
+    // Count school days from the anchor date up to (and including) today
+    while (currentDate <= today) {
         const currentDateString = currentDate.toISOString().split('T')[0];
         if (currentDate.getDay() !== 0 && currentDate.getDay() !== 6 && !holidays.includes(currentDateString)) {
-            daysPassed++;
+            schoolDaysPassed++;
         }
         currentDate.setDate(currentDate.getDate() + 1);
     }
     
     const totalDaysInCycle = Object.keys(schedule).length;
-    const currentDayIndex = ((daysPassed + anchorDayNumber - 1) % totalDaysInCycle) + 1;
+    // We adjust the anchorDayNumber by subtracting 1 to align with 0-based indexing
+    // of the modulo operation, then add 1 back for display.
+    const currentDayIndex = ((schoolDaysPassed + anchorDayNumber - 2) % totalDaysInCycle) + 1;
+
     const currentDayKey = `Day ${currentDayIndex}`;
     const todaysSchedule = schedule[currentDayKey];
 
