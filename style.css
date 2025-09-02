@@ -1,0 +1,59 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: #FFFFFF;
+    color: #36454F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.widget-container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F1F5FF;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#schedule-day {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #A5C0FB;
+}
+
+.schedule-periods {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.schedule-periods div {
+    padding: 10px;
+    border-bottom: 1px solid #E6F0FF;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.schedule-periods div:last-child {
+    border-bottom: none;
+}
+
+#schedule-list {
+    font-size: 1em;
+    font-weight: 500;
+    color: #1C469F;
+}
+
+.current-period {
+    background-color: #E6F0FF;
+    color: #1C469F;
+    border: 1px solid #1C469F;
+    font-weight: bold;
+}
