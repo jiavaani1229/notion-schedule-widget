@@ -6,7 +6,8 @@ const schedule = {
         { name: 'Math', start: '09:00', end: '09:40' },
         { name: 'P.E.', start: '09:45', end: '10:25' },
         { name: 'H&CR', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'Science', start: '12:40', end: '13:25' },
         { name: 'Spanish', start: '13:30', end: '14:15' },
         { name: 'History', start: '14:20', end: '15:00' }
@@ -16,7 +17,8 @@ const schedule = {
         { name: 'English', start: '09:00', end: '09:40' },
         { name: 'Math', start: '09:45', end: '10:25' },
         { name: 'P.E.', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'H&CR', start: '12:40', end: '13:25' },
         { name: 'Science', start: '13:30', end: '14:15' },
         { name: 'Spanish', start: '14:20', end: '15:00' }
@@ -26,7 +28,8 @@ const schedule = {
         { name: 'Strings', start: '09:00', end: '09:40' },
         { name: 'English', start: '09:45', end: '10:25' },
         { name: 'Math', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'P.E.', start: '12:40', end: '13:25' },
         { name: 'H&CR', start: '13:30', end: '14:15' },
         { name: 'Science', start: '14:20', end: '15:00' }
@@ -36,7 +39,8 @@ const schedule = {
         { name: 'History', start: '09:00', end: '09:40' },
         { name: 'Strings', start: '09:45', end: '10:25' },
         { name: 'English', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'Math', start: '12:40', end: '13:25' },
         { name: 'P.E.', start: '13:30', end: '14:15' },
         { name: 'H&CR', start: '14:20', end: '15:00' }
@@ -46,7 +50,8 @@ const schedule = {
         { name: 'Spanish', start: '09:00', end: '09:40' },
         { name: 'History', start: '09:45', end: '10:25' },
         { name: 'Strings', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'English', start: '12:40', end: '13:25' },
         { name: 'Math', start: '13:30', end: '14:15' },
         { name: 'P.E.', start: '14:20', end: '15:00' }
@@ -56,7 +61,8 @@ const schedule = {
         { name: 'Science', start: '09:00', end: '09:40' },
         { name: 'Spanish', start: '09:45', end: '10:25' },
         { name: 'History', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'Strings', start: '12:40', end: '13:25' },
         { name: 'English', start: '13:30', end: '14:15' },
         { name: 'Math', start: '14:20', end: '15:00' }
@@ -66,7 +72,8 @@ const schedule = {
         { name: 'H&CR', start: '09:00', end: '09:40' },
         { name: 'Science', start: '09:45', end: '10:25' },
         { name: 'Spanish', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'History', start: '12:40', end: '13:25' },
         { name: 'Strings', start: '13:30', end: '14:15' },
         { name: 'English', start: '14:20', end: '15:00' }
@@ -76,7 +83,8 @@ const schedule = {
         { name: 'P.E.', start: '09:00', end: '09:40' },
         { name: 'H&CR', start: '09:45', end: '10:25' },
         { name: 'Science', start: '10:30', end: '11:10' },
-        { name: 'Lunch/Recess + Study Hall', start: '11:10', end: '12:35' },
+        { name: 'Lunch/Recess', start: '11:10', end: '12:00' },
+        { name: 'Office Hours', start: '12:00', end: '12:35' },
         { name: 'Spanish', start: '12:40', end: '13:25' },
         { name: 'History', start: '13:30', end: '14:15' },
         { name: 'Strings', start: '14:20', end: '15:00' }
@@ -84,7 +92,7 @@ const schedule = {
 };
 
 // 2. SET THE ANCHOR DATE
-const anchorDate = new Date('2025-08-13');
+const anchorDate = new Date('2025-08-13'); // Final change
 const anchorDayNumber = 1;
 
 // 3. SET YOUR HOLIDAYS
