@@ -168,8 +168,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     const totalDaysInCycle = Object.keys(schedule).length;
-    // The previous formula had an off-by-one error. The corrected formula is simply a modulo.
-    const currentDayIndex = ((schoolDaysPassed - anchorDayNumber) % totalDaysInCycle) + anchorDayNumber;
+    // The previous formula was off by one. The corrected formula is simply a modulo.
+    const currentDayIndex = ((schoolDaysPassed - 1) % totalDaysInCycle) || totalDaysInCycle;
     
     const currentDayKey = `Day ${currentDayIndex}`;
     const todaysSchedule = schedule[currentDayKey];
