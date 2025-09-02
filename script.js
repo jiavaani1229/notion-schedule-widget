@@ -92,7 +92,7 @@ const schedule = {
 };
 
 // 2. SET THE ANCHOR DATE
-const anchorDate = new Date('2025-08-13'); // Final change
+const anchorDate = new Date('2025-08-13');
 const anchorDayNumber = 1;
 
 // 3. SET YOUR HOLIDAYS
